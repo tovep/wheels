@@ -9,6 +9,6 @@ cp -r $ide_workspace_path$nw_project_name $node_webkit_path
 
 cd $node_webkit_path$nw_project_name
 
-zip $nw_project_name.nw *
+zip -r $nw_project_name.nw *
 
 ../nw $nw_project_name.nw --disable-gpu
